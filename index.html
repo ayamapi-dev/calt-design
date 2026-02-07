@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<title>calt Design Market</title>
+<link rel="stylesheet" href="style.css">
+
+<!-- Protection basique -->
+<script>
+  document.addEventListener('contextmenu', e => e.preventDefault());
+  document.addEventListener('keydown', e => {
+    if (e.ctrlKey && (e.key === 's' || e.key === 'u' || e.key === 'c')) {
+      e.preventDefault();
+    }
+  });
+</script>
+
+</head>
+<body>
+
+<header class="top">
+  <h1>calt Design Market</h1>
+  <nav>
+    <a href="#logos">Logos</a>
+    <a href="#flyers">Flyers</a>
+    <a href="#covers">Page Cover</a>
+    <a href="#cartes">Cartes pub</a>
+  </nav>
+</header>
+
+<!-- LOGOS -->
+<section id="logos" class="gallery">
+<h2>Logos</h2>
+<div class="grid">
+
+<div class="card locked">
+  <img src="images/logos/logo1.jpg">
+  <p>Logo Pro</p>
+  <a href="https://buy.stripe.com/TONLIEN" class="btn">Acheter</a>
+</div>
+
+</div>
+</section>
+
+<!-- FLYERS -->
+<section id="flyers" class="gallery">
+<h2>Flyers</h2>
+<div class="grid">
+
+<div class="card locked">
+  <img src="images/flyers/flyer1.jpg">
+  <p>Flyer Event</p>
+  <a href="https://buy.stripe.com/TONLIEN" class="btn">Acheter</a>
+</div>
+
+</div>
+</section>
+
+<!-- PAGE COVER -->
+<section id="covers" class="gallery">
+<h2>Page Cover</h2>
+<div class="grid">
+
+<div class="card locked">
+  <img src="images/covers/cover1.jpg">
+  <p>Cover Artist</p>
+  <a href="https://buy.stripe.com/TONLIEN" class="btn">Acheter</a>
+</div>
+
+</div>
+</section>
+
+<!-- CARTES PUBLICITAIRES -->
+<section id="cartes" class="gallery">
+<h2>Cartes publicitaires</h2>
+<div class="grid">
+
+<div class="card">
+  <img src="images/cartes/carte1.jpg">
+  <p>Carte Business</p>
+  <a href="https://buy.stripe.com/TONLIEN" class="btn">Acheter</a>
+</div>
+
+</div>
+</section>
+
+<!-- SECTION PREMIUM -->
+<section id="premium" class="premium-section">
+  <h2>Compte Premium</h2>
+  <p>
+    Accédez à tous les logos, flyers, covers et cartes
+    <strong>sans payer à chaque fois</strong>.
+  </p>
+
+  <ul>
+    <li>✔️ Téléchargements illimités</li>
+    <li>✔️ Images sans flou</li>
+    <li>✔️ Nouveaux designs chaque semaine</li>
+  </ul>
+
+  <a href="https://buy.stripe.com/TONLIENPREMIUM" class="btn premium-btn" target="_blank">
+    Devenir Premium
+  </a>
+
+  <p class="note">
+    Après paiement, l’accès Premium est activé.
+  </p>
+</section>
+
+<footer>
+<p>© 2026 Azzy Design Market</p>
+</footer>
+
+</body>
+</html>
